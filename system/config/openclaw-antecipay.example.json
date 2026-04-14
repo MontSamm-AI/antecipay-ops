@@ -1,0 +1,20 @@
+{
+  "id": "cadence-antecipay",
+  "displayName": "Cadence AnteciPay",
+  "workspace": "~/.openclaw/workspace-antecipay",
+  "model": "claude-sonnet-4-5",
+  "channels": ["whatsapp", "telegram"],
+  "description": "Agente de prospecção e qualificação de cessão de precatórios",
+  "skills": [
+    "whatsapp_sender",
+    "proposal_generator",
+    "database_manager",
+    "backoffice_notifier",
+    "browser_research"
+  ],
+  "settings": {
+    "auto_advance_stage": true,
+    "stage_timeout_hours": 48,
+    "max_messages_per_stage": 10
+  }
+}
